@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --fuenteGoogle:'Noto Serif', serif;
+}
+
+body{
+  background: #FFFFFF;
+}
+
+p{
+  border: yellow 3px solid;
+}
+img{
+  width: 180px;
+  border-radius: 10px;
+}
+header{
+  font-family: var(--fuenteGoogle);
+  background: #D6F8F9;
+  width: 50%;
+  margin: auto 300px;
+  max-width: 450px;
+}
+h1{
+  text-align: right;
+  font-size: 120%;
+}
+.main{
+  font-family: var(--fuenteGoogle);
+  background: #2E00FC;
+  width:50%;
+  color: white;
+  margin: auto 300px;
+  max-width: 450px;
+}
