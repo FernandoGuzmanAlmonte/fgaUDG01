@@ -4,92 +4,173 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <meta charset="UTF-8">
     <title>CURRICULUM VITAE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="Curriculum.ico">
     <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   </head>
   <body>
-    <header>
-      <h1>Fernando Guzmán Almonte</h1>
-      <div class="Foto">
-        <img src="Foto.jpg" alt="Photo" title="Fernando Guzmán Almonte"/>
-      </div>
-      <div class="Datos de contacto">
-        <p> Phone: 3321995134 <br/>
-            Age: 20 años <br/>
-            E-mail: fergalmonte@hotmail.com <br/>
-            Nationality: Mexican
-        </p>
-      </div>
-      <div class="Habilidades">
-        <h2>SKILLS</h2>
-        <p> Self-taught: 90% <br/>
-            Flexibility: 90% <br/>
-            Teamwork: 95% <br/>
-            Positive attitude 95% <br/>
-        </p>
-      </div>
-      <div class="Programas">
-        <h2>PROGRAMS</h2>
-        <p> C++: 80% <br/>
-            Java: 70% <br/>
-            C: 80% <br/>
-            HTML: 30% <br/>
-            CSS: 30% <br/>
-            MYSQL: 70% <br/>
-        <p/>
-      </div>
-      <div class="Idiomas">
-        <h2>LANGUAGES</h2>
-        <p> Spanish: 95% <br/>
-            English: 60%
-        </p>
-      </div>
-    </header>
-    <section class="main">
-      <div class="Estudios">
-        <h2>STUDIES</h2>
-        <p> Year: 2011 <br/>
-            State-Country: Jalisco-Mexico <br/>
-            Institution: Technical high school Manuel Gómez Morín <br/><br/>
-            Year: 2014 <br/>
-            State-Country: Jalisco-Mexico <br/>
-            Institution: High School 6 <br/><br/>
-            Currently studying: <br/>
-            State-Country: Jalisco-Mexico <br/>
-            Institution: University Center of Exact Sciences and Engineering <br/><br/>
-        </p>
-      </div>
-      <div class="Experiencia laboral">
-        <h2>WORK EXPERIENCE</h2>
-        <h3>NETLINE</h3>
-        <p> Employee of a Cyber
-            Realized tasks: Responsible for maintaining a cyber under
-            control, making copies, prints, realization of different trades and
-            presentations, as well as spreadsheets for various clients.
-        </p>
-      </div>
-      <div class="Experiencia en proyectos">
-        <h2>EXPERIENCE IN PROJECTS</h2>
-        <p>None by the moment.<p/>
-      </div>
-      <div class="Intereses profesionales">
-        <h2>PROFESSIONAL INTERESTS</h2>
-        <p> Obtain a position in the company where I can contribute with my
-            experience in work practices, in previous jobs and with the skills
-            acquired during my training in the achievement of general goals of
-            the company and the position I request.
-        <p/>
-      </div>
-      <div class="Referencias personales">
-        <h2>PERSONAL REFERENCES</h2>
-        <p> Name: Gumaro Guzmán Nuñez <br/>
-            Relationship: Father <br/>
-            Phone: 3314320852 <br/><br/>
-            Name: Martina Almonte Rodriguez <br/>
-            Relationship: Mother <br/>
-            Phone: 3311565484
-        </p>
-      </div>
-    </section>
+    <div class = "container">
+      <header class = "row">
+        <div class="Foto col-xs-12 col-md-3">
+          <img src="Foto.jpg" alt="Photo" title="Fernando Guzmán Almonte"/>
+        </div>
+        <h1 class = "col-xs-12 col-md-8 text-left "><b>Fernando Guzmán Almonte</b></h1>
+        <div class = "Datos de contacto text-left">
+          <p> ___________________________________________________________________ <br/>
+              <i>Phone: 3321995134 <br/>
+              Age: 20 años <br/>
+              E-mail: fergalmonte@hotmail.com <br/>
+              Nationality: Mexican</i>
+          </p>
+        </div>
+      </header>
+      <section class = "main row">
+        <div class = "Columa1 col-xs-12 col-md-6">
+          <div class="Habilidades">
+            <h2><span class="glyphicon glyphicon-star"></span> <b>SKILLS</b></h2>
+            <p> Self-taught: <br/>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:80%; color:black">
+                    80%
+                  </div>
+                </div>
+
+                Flexibility: <br/>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:90%; color:black">
+                    90%
+                  </div>
+                </div>
+
+                Teamwork:<br/>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:95%; color:black">
+                    95%
+                  </div>
+                </div>
+
+                Positive attitude:<br/>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:95%; color:black">
+                    95%
+                  </div>
+                </div>
+            </p>
+          </div>
+          <div class="Programas">
+            <h2><span class="glyphicon glyphicon-blackboard"></span> <b>PROGRAMS</b></h2>
+            <p> C++: <br/>
+                <div class = "progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:80%; color:black">
+                    80%
+                  </div>
+                </div>
+
+                Java: <br/>
+                <div class = "progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:60%; color:black">
+                    60%
+                  </div>
+                </div>
+
+                C: <br/>
+                <div class = "progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:80%; color:black">
+                    80%
+                  </div>
+                </div>
+
+                HTML: <br/>
+                <div class = "progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:30%; color:black">
+                    30%
+                  </div>
+                </div>
+
+                CSS: <br/>
+                <div class = "progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:30%; color:black">
+                    30%
+                  </div>
+                </div>
+
+                MYSQL: <br/>
+                <div class = "progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:70%; color:black">
+                    70%
+                  </div>
+                </div>
+            <p/>
+          </div>
+          <div class="Idiomas">
+            <h2><span class="glyphicon glyphicon-font"><span/> <b>LANGUAGES</b></h2>
+            <p> Spanish: <br/>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" style="width:70%; color:black">
+                    95%
+                  </div>
+                </div>
+                English: <br/>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" style="width:60%; color:black">
+                    60%
+                  </div>
+                </div>
+            </p>
+          </div>
+          <div class="Estudios">
+            <h2><span class="glyphicon glyphicon-pencil"></span> <b>STUDIES</b></h2>
+            <p> Year: 2011 <br/>
+                State-Country: Jalisco-Mexico <br/>
+                Institution: Technical high school Manuel Gómez Morín <br/><br/>
+                Year: 2014 <br/>
+                State-Country: Jalisco-Mexico <br/>
+                Institution: High School 6 <br/><br/>
+                Currently studying: <br/>
+                State-Country: Jalisco-Mexico <br/>
+                Institution: University Center of Exact Sciences and Engineering <br/><br/>
+            </p>
+          </div>
+        </div>
+        <div class = "Columna2  col-xs-12 col-md-6">
+          <div class="Experiencia laboral text-justify">
+            <h2><span class="glyphicon glyphicon-briefcase"></span> <b>WORK EXPERIENCE</b></h2>
+            <h3 class="text-warning"><b>NETLINE</b></h3>
+            <p> Employee of a Cyber
+                Realized tasks: Responsible for maintaining a cyber under
+                control, making copies, prints, realization of different trades and
+                presentations, as well as spreadsheets for various clients.
+            </p>
+          </div>
+          <div class="Experiencia en proyectos text-justify">
+            <h2><span class="glyphicon glyphicon-signal"></span> <b>EXPERIENCE IN PROJECTS</b></h2>
+            <p>None by the moment.<p/>
+          </div>
+          <div class="Intereses profesionales text-justify">
+            <h2><span class="glyphicon glyphicon-eye-open"></span> <b>PROFESSIONAL INTERESTS</b></h2>
+            <p> Obtain a position in the company where I can contribute with my
+                experience in work practices, in previous jobs and with the skills
+                acquired during my training in the achievement of general goals of
+                the company and the position I request.
+            <p/>
+          </div>
+          <div class="Referencias personales">
+            <h2><span class="glyphicon glyphicon-user"></span> <b>PERSONAL REFERENCES</b></h2>
+            <p> Name: Gumaro Guzmán Nuñez <br/>
+                Relationship: Father <br/>
+                Phone: 3314320852 <br/><br/>
+                Name: Martina Almonte Rodriguez <br/>
+                Relationship: Mother <br/>
+                Phone: 3311565484
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
